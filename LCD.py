@@ -59,7 +59,7 @@ class Bits(enum.Enum):
 
 class LCD:
     def __init__(self, addr=0x27):
-        self.device = I2CDevice(addr)
+        self.device = I2CDevice(addr, 1)
         self.lcd_write(0x03)
         self.lcd_write(0x03)
         self.lcd_write(0x03)
