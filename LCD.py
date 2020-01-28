@@ -30,7 +30,7 @@ class LCDOnOff(enum.Enum):
     BLINKOFF = 0x00
 
 
-class LCDCursor(enum.ENUM):
+class LCDCursor(enum.Enum):
     DISPLAYMOVE = 0x08
     CURSORMOVE = 0x00
     MOVERIGHT = 0x04
