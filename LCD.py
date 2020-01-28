@@ -38,7 +38,7 @@ SELECT = 0b00000001
 
 
 class LCD:
-    def __init__(self, addr=0x27):
+    def __init__(self, addr=0x38):
         self.device = I2CDevice(addr, 1)
         self.lcd_write(0x03)
         self.lcd_write(0x03)
