@@ -1,4 +1,4 @@
-import I2CDevice
+from I2CDevice import I2CDevice
 import time
 import enum
 
