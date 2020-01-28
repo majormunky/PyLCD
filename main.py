@@ -20,7 +20,7 @@ try:
     lcd = LCD()
     while True:
         lcd.lcd_display_string("IP Address:", 1)
-        lcd.lcd_display_string("".format(local_address), 2)
+        lcd.lcd_display_string("{}".format(local_address), 2)
         time.sleep(10)
         lcd.lcd_clear()
         time.sleep(0.1)
